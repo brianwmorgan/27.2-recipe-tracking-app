@@ -1,33 +1,28 @@
 import React, { useState } from "react";
-import "./App.css"
+import "./App.css";
 
-function RecipeCreate({recipes, setRecipes}) {
-
-  // TODO: When the form is submitted, a new recipe should be created, and the form contents cleared.
-  // TODO: Add the required input and textarea form elements.
-  // TODO: Add the required submit and change handlers
-  
+function RecipeCreate({ recipes, setRecipes }) {
   const initialFormState = {
-    name:"",
-    cuisine:"",
-    photo:"",
-    ingredients:"",
-    preparation:"",
+    name: "",
+    cuisine: "",
+    photo: "",
+    ingredients: "",
+    preparation: "",
   };
-  
+
   const [newRecipe, setNewRecipe] = useState(initialFormState);
-  
-  const handleChange = ({target}) => {
+
+  const handleChange = ({ target }) => {
     const value = target.value;
     setNewRecipe({
       ...newRecipe,
       [target.name]: value,
     });
   };
-  
+
   const handleCreate = (event) => {
     event.preventDefault();
-    setRecipes([...recipes, newRecipe])
+    setRecipes([...recipes, newRecipe]);
     setNewRecipe(initialFormState);
   };
 
