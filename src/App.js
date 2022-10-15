@@ -25,10 +25,17 @@ function App() {
             fontSize: "64px",
           }}
         >
-          Recipe Tracker
+          Food for Thought
         </h1>
       </header>
-      ;
+      <h2
+        style={{
+          fontFamily: "Playfair Display SC",
+          textAlign: "center",
+        }}
+      >
+        Recipe Tracker
+      </h2>
       <RecipeList recipes={recipes} deleteRecipe={deleteRecipe} />
       <RecipeCreate addRecipe={addRecipe} />
     </div>
