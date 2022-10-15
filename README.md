@@ -3,7 +3,7 @@
 Food for Thought is a live application that allows a user to create a list of recipes.
 
 ## Links
-[Live Vercel Client App](https:)  
+[Live Vercel Client App](https://recipe-tracking-app-alpha.vercel.app/)  
 
 ## Technology
 - JavaScript, React, HTML, CSS  
