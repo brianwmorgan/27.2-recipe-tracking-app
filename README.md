@@ -14,15 +14,10 @@ Food for Thought is a live application that allows a user to create a list of re
 ![CSS icon](images/css.png)  
   
 ## App Features
-### Caesar Shift
 
-The Caesar Shift is a type of substitution cipher originally used by Julius Caesar to protect messages of military significance. It relies on taking the alphabet and "shifting" letters to the right or left, based on the typical alphabetic order. For example, if you were to "shift" the alphabet to the left by 3, the letter "A" would become "X", the letter "E" would become "B", et cetera.  
+A user can view a list of recipes and add new recipes to that list by entering information in form fields and clicking the `Create` button. A user can also delete a specific recipe by clicking the `Delete` button.  
 
-![Caesar shift](images/caesar.png)  
-
-When decoding the message, the number the original message was shifted by must be provided so the message can be shifted in the opposite direction.
-
-#### App Screenshot
+![recipe screenshot](images/recipe-screenshot.png)  
 
 ## Installation
 
