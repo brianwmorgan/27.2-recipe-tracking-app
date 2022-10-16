@@ -1,6 +1,6 @@
 # Food for Thought | Recipe-Tracking App
 
-Food for Thought is a live application that allows a user to view a list of recipes, add new recipes, and delete existing recipes.
+Food for Thought is a live frontend application that allows a user to view a list of recipes, add new recipes, and delete existing recipes.
 
 ## Links
 [Live App](https://recipe-tracking-app-alpha.vercel.app/) deployed to Vercel  
